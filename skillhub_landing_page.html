@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style>
+      h2 {
+        color: rgb(27, 27, 27);
+        font-size:x-large
+      }
+      ul {
+        list-style-type: none;
+        background-color: rgb(214, 214, 214);
+        text-align: center;
+      }
+      ul li {
+        padding: 10px;
+        display: inline-block;
+        cursor: pointer;
+        color: black;
+        font-weight: 700;
+      }
+      .body-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+      }
+      ul li:hover {
+        background-color: gray;
+        color: white;
+      }
+      ul li a:hover {
+        color: white;
+      }
+      .cover-image {
+        display: block;
+        height: 300px;;
+      }
+      .feature-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .feature-img {
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#login">LogIn</a></li>
+        <li><a href="#SignUp">SignUp</a></li>
+        <li><a href="#search">search</a></li>
+        <li><a href="https://www.skill-hub.site/" target="_blank">project</a></li>
+      </ul>
+    </header>
+    <div class="body-container">
+      <div>
+        <img class="cover-image" src="./shaking-hands.jpeg"/>
+      </div>
+      <div>
+        <h2 style="text-align: center;">SkillHub</h2>
+        <p style="font-size: 18px;">Connecting you with trusted professionals for all your home and business service needs.
+        </p>
+      </div>
+      <div id="SignUp" class="feature-container">
+        <h2 style="text-align: center;">Sign up Feature</h2>
+        <p style="width: 800px;">The service provider can create an account with all the information that the client will need to know, such as the city, phone number, type of service, and working days. All this information will appear on the service card.</p>
+        <img class="feature-img" src="./signup.png" />
+      </div>
+      <div id="login" class="feature-container">
+        <h2 style="text-align: center;">Log in Feature</h2>
+        <p style="width: 800px;">This feature allows users to log in to their account and access all service information on the site. Without logging in, they cannot access the personal information of service providers or the services.</p>
+        <img class="feature-img" src="./logIn.png" />
+      </div>
+      <div id="search" class="feature-container">
+        <h2 style="text-align: center;">search Feature</h2>
+        <p style="width: 800px;">The user can use the search bar to find any service or sub-service they need, and filter results by the desired city</p>
+        <img class="feature-img" src="./search-bar.png" />
+      </div>
+    </div>
+    <footer style="background-color: rgb(163, 161, 161); padding: 6px; margin-top: 10px; color: rgb(28, 23, 37); color: white; font-weight: 600; display: flex; flex-direction: column; align-items: center;">
+      <p style="text-align: center; width: 800px;">The idea for Skillhub was born during my time at university. I often passed by workers standing on the street, waiting under the hot sun for potential customers. Seeing their struggle to find work in such conditions inspired me to create a platform that would make it easier for service providers to connect with clients, eliminating the need for such hardships."</p>
+      <p style="text-align: center;">Team : <a href="https://github.com/flowSar" style="text-decoration: none; color: brown;">Github</a></p>
+      <p>Project  : <a href="https://github.com/flowSar/skillhub" style="text-decoration: none; color: brown;">Github</a></p>
+    </footer>
+  </body>
+</html>
